@@ -36,10 +36,4 @@ This repository is set up with a minimal structure to allow candidates to quickl
 ### Setup Instructions
 
 1. Clone this repository
-2. Choose either the Kotlin or PHP implementation
-3. Start the Docker container:
-   ```
-   # For Kotlin
-   docker-compose up -d kotlin-app
-   ```
-4. Begin implementing the solution in your IDE
+2. Begin implementing the solution in your IDE (you can run the project either locally or inside Docker)
