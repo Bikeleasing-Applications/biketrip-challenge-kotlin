@@ -15,4 +15,4 @@ services:
     environment:
       - JAVA_OPTS=-Xmx512m
     # Command keeps container running for development
-    command: tail -f /dev/null
+    #command: tail -f /dev/null

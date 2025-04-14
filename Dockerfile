@@ -29,7 +29,7 @@ COPY --from=builder /app/build/libs/*.jar /app/app.jar
 COPY --from=builder /app/data /app/data
 
 # Keep the container running for development
-CMD ["tail", "-f", "/dev/null"]
+#CMD ["tail", "-f", "/dev/null"]
 
 # To run the application instead, use:
-# CMD ["java", "-jar", "/app/app.jar"]
+CMD ["java", "-jar", "/app/app.jar"]
